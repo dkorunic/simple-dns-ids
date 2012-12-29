@@ -1,0 +1,24 @@
+[sniff_sensor]
+# loglevel: can be CRITICAL, DEBUG, ERROR, FATAL, INFO, NOTSET, WARNING
+loglevel = INFO
+
+# logfile
+logfile = sniff_sensor.log
+
+# PCAP filtering expression. Usually 'port 53', which catches all src port
+# 53 and dst port 53 traffic
+pcapexpr = port 53
+
+# remote server (core) address
+srvaddr = 127.0.0.1
+
+# remote server port
+srvport = 5000
+
+# symmetric AES128 crypto key 
+cryptokey = aifuY0th
+
+# in standalone mode (without remote server) or not
+# (if yes, this renders srvaddr/srvport/cryptokey useless)
+#standalone = False
+standalone = True

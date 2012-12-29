@@ -1,0 +1,15 @@
+[sniff_core]
+# loglevel: can be CRITICAL, DEBUG, ERROR, FATAL, INFO, NOTSET, WARNING
+loglevel = INFO
+
+# logfile
+logfile = sniff_core.log
+
+# local server address
+addr = 127.0.0.1
+
+# local server port
+port = 5000
+
+# symmetric AES128 crypto key 
+cryptokey = aifuY0th
