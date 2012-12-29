@@ -6,4 +6,4 @@ This a simple, very simple DNS Intrusion Detection System (this was
 actually my diploma thesis) which has multiple sensors (probes) and
 centralized data aggregation and analysis. 
 
-For more information check included documentation in PDF.
+For more information check source and included documentation in PDF.
